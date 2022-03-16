@@ -1,0 +1,35 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+button{
+    margin: 8px;
+}
+  
+.main-container{
+    display: flex;
+    background-color: rgb(185, 179, 179);
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+}
+.vertical-container{
+    display: flex;
+    background-color: aqua;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.inner-square{
+    background-color: rebeccapurple;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
